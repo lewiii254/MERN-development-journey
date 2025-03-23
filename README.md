@@ -8,13 +8,13 @@ Welcome to my **Full-Stack MERN Learning Hub**! 🎯🔥 This repo is a collecti
 This repository is a **goldmine** 💎 of everything I’ve been learning in the **MERN stack**, structured week by week. Whether it's backend magic with Node.js & Express, frontend wizardry with React, or full-stack awesomeness, it's all here! 🔥
 
 ### 📌 Key Highlights:
-✅ **Week 1-2**: MongoDB basics, CRUD operations, Mongoose models 🛢️
-✅ **Week 3-4**: Express.js, REST APIs, authentication & JWT 🛡️
-✅ **Week 5-6**: React fundamentals, state management, hooks 🎨
-✅ **Week 7-8**: MERN stack integration, real-world app builds ⚡
-✅ **Week 9-10**: Advanced React, Redux Toolkit, UI frameworks 💅
-✅ **Week 11-12**: Deployment (Vercel, Netlify, Render, and DigitalOcean) 🚀
-✅ **Ongoing**: Performance optimization, testing, and maintenance 🛠️
+- ✅ **Week 1-2**: MongoDB basics, CRUD operations, Mongoose models 🛢️
+- ✅ **Week 3-4**: Express.js, REST APIs, authentication & JWT 🛡️
+- ✅ **Week 5-6**: React fundamentals, state management, hooks 🎨
+- ✅ **Week 7-8**: MERN stack integration, real-world app builds ⚡
+- ✅ **Week 9-10**: Advanced React, Redux Toolkit, UI frameworks 💅
+- ✅ **Week 11-12**: Deployment (Vercel, Netlify, Render, and DigitalOcean) 🚀
+- ✅ **Ongoing**: Performance optimization, testing, and maintenance 🛠️
 
 ---
 
@@ -41,10 +41,10 @@ Feel free to fork, clone, explore, and drop a ⭐ if you find this repo helpful!
 ---
 
 ## 🤝 Let's Connect!
-🌐 **Portfolio:** [Coming soon...]  
-💼 **LinkedIn:** [Your LinkedIn URL]  
-🐦 **Twitter/X:** [Your Twitter Handle]  
-📩 **Email:** [Your Email Address]  
+🌐 **Portfolio:**
+💼 **LinkedIn:** 
+🐦 **Twitter/X:**   
+📩 [**Email:**](ngondimarklewis@gmail.com)  
 
 Let’s build something **awesome** together! 🚀🔥
 
