@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Red Rose for My Queen ❤️</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f8ff;
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      overflow: hidden;
+    }
+
+    .stem {
+      width: 10px;
+      height: 200px;
+      background-color: green;
+      position: relative;
+      border-radius: 5px;
+    }
+
+    .leaf {
+      width: 50px;
+      height: 20px;
+      background-color: green;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .leaf.left {
+      left: -30px;
+      top: 80px;
+      transform: rotate(-30deg);
+    }
+
+    .leaf.right {
+      right: -30px;
+      top: 120px;
+      transform: rotate(30deg);
+    }
+
+    .flower {
+      position: absolute;
+      top: -50px;
+      left: -30px;
+      width: 80px;
+      height: 80px;
+      background-color: red;
+      border-radius: 50%;
+      box-shadow: 
+        0 0 0 10px red, 
+        0 0 0 20px rgba(255, 0, 0, 0.5);
+      animation: bloom 2s infinite alternate;
+    }
+
+    @keyframes bloom {
+      0% { transform: scale(1); }
+      100% { transform: scale(1.1); }
+    }
+
+    .center {
+      width: 20px;
+      height: 20px;
+      background-color: yellow;
+      border-radius: 50%;
+      position: absolute;
+      top: 30px;
+      left: 30px;
+    }
+
+    .petal {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: absolute;
+      border-radius: 50%;
+      opacity: 0.7;
+    }
+
+    .petal.one { top: -40px; left: -40px; }
+    .petal.two { top: -40px; left: 20px; }
+    .petal.three { top: 20px; left: -40px; }
+    .petal.four { top: 20px; left: 20px; }
+
+    .message {
+      position: absolute;
+      top: 80%;
+      font-size: 24px;
+      color: #e60000;
+      text-shadow: 2px 2px 4px #000000;
+      animation: glow 1.5s infinite alternate;
+    }
+
+    @keyframes glow {
+      0% { text-shadow: 2px 2px 4px #ff0000; }
+      100% { text-shadow: 4px 4px 8px #ff4d4d; }
+    }
+
+    .heart {
+      position: absolute;
+      top: -10%;
+      font-size: 40px;
+      color: red;
+      animation: fall 5s linear infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes fall {
+      0% { transform: translateY(-100vh) rotate(0); }
+      100% { transform: translateY(100vh) rotate(360deg); }
+    }
+
+    .heart:nth-child(2) { left: 20%; animation-duration: 6s; }
+    .heart:nth-child(3) { left: 40%; animation-duration: 7s; }
+    .heart:nth-child(4) { left: 60%; animation-duration: 8s; }
+    .heart:nth-child(5) { left: 80%; animation-duration: 9s; }
+
+  </style>
+</head>
+<body>
+  <div class="heart">❤️</div>
+  <div class="heart">💖</div>
+  <div class="heart">❤️</div>
+  <div class="heart">💖</div>
+  <div class="heart">❤️</div>
+
+  <div class="stem">
+    <div class="leaf left"></div>
+    <div class="leaf right"></div>
+    <div class="flower">
+      <div class="center"></div>
+      <div class="petal one"></div>
+      <div class="petal two"></div>
+      <div class="petal three"></div>
+      <div class="petal four"></div>
+    </div>
+  </div>
+  <div class="message">🌹 For My Followers 🌹</div>
+</body>
+</html>
