@@ -15,6 +15,7 @@ This repository is a **goldmine** 💎 of everything I’ve been learning in the
 - ✅ **Week 9-10**: Advanced React, Redux Toolkit, UI frameworks 💅
 - ✅ **Week 11-12**: Deployment (Vercel, Netlify, Render, and DigitalOcean) 🚀
 - ✅ **Ongoing**: Performance optimization, testing, and maintenance 🛠️
+- ✅ **Projects**: More practice personal projects
 
 ---
 
